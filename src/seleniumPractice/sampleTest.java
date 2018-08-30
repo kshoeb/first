@@ -10,7 +10,15 @@ public class sampleTest {
 		{
 			System.out.println("Num : " + num[i]);
 		}
-
+	
+		sampleTest st = new sampleTest();
+		st.testMethod();
+		
+	}
+	
+	public void testMethod()
+	{
+		System.out.println("Method for testing");
 	}
 
 }

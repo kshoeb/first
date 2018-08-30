@@ -13,12 +13,20 @@ public class sampleTest {
 	
 		sampleTest st = new sampleTest();
 		st.testMethod();
+		st.testMethod2();
 		
+	}
+	
+	public void testMethod2()
+	{
+		System.out.println("Method for testing");
 	}
 	
 	public void testMethod()
 	{
-		System.out.println("Method for testing");
+		System.out.println("Method for testing 2");
 	}
+	
+	
 
 }
